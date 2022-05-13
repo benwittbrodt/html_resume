@@ -1,0 +1,20 @@
+@media print {
+
+    /* All your print styles go here */
+    #header,
+    #footer,
+    #nav {
+        display: none !important;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    html {
+        height: 11in;
+        width: 8.5in;
+    }
+
+
+}
