@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ben Wittbrodt - Data Analyst</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="print" href="print.css" type="text/css" />
     <style>
         .canvas-container {
             margin: 0 auto;
             /* for centering, feel free to use flexbox or some other method*/
             box-sizing: border-box;
-            padding: 0.5in;
+            padding: 0.33in;
             /* controls margins */
             width: 8.5in;
             height: 11in;
@@ -21,16 +22,6 @@
         }
 
         @media print {
-            html {
-                height: 11in;
-                width: 8.5in;
-                overflow: hidden;
-            }
-
-            body {
-                margin: 0;
-            }
-
             .canvas-container {
                 width: 100%;
                 box-shadow: none;
@@ -43,170 +34,216 @@
     <script src="index.js"></script>
     <div class="canvas-container">
         <div class="flex">
-            <div class="basis 2/3 grow ">
+            <div class="basis-3/4 grow">
                 <p class="text-5xl font-semibold text-cyan-800">Ben Wittbrodt</p>
                 <div class="text-sm my-5 mr-5">
                     Data analytics professional with over 5 years experience interpreting and presenting data insights
-                    for
+                    to
                     stakeholders. Self-motivated problem solver with a constant desire to learn and improve.
 
                 </div>
             </div>
-            <p class="basis 1/3 text-sm">
+            <p class="basis-1/4 text-sm">
                 811 Mapleton Ave <br>
                 Oak Park, IL 60302 <br>
                 benwittbrodt@gmail.com <br>
-                www.benwittbrodt.com <br>
+                <a href="https://www.benwittbrodt.com">www.benwittbrodt.com</a><br>
                 (231) 709-1793 <br>
 
             </p>
         </div>
-        <div>
-            <h2 class="text-2xl font-bold text-cyan-800">Experience</h2>
-            <div>
-                <div class="flex">
-                    <h3 class="basis 2/3 grow text-lg font-bold">Sermo - Remote</h3>
-                </div>
-                <div class="flex">
-                    <h4 class="basis 2/3 grow text-md font-semibold">Senior Associate</h4>
-                    <p class="basis 1/3">April 2022 - Present</p>
-                </div>
-                <div class="flex">
-                    <h4 class="basis 2/3 grow text-md font-semibold">Business Analytics Associate</h4>
-                    <p class="basis 1/3">May 2021 - April 2022</p>
-                </div>
-                <div>
-                    <ul class="ml-5 list-disc text-sm">
-                        <li>
-                            Building process to manage all types of reporting (aggregate and transactional) including
-                            automation, delivery, and
-                            request criteria. Includes aligning requirements across multiple teams and utilizing kanban
-                            boards to visualize and
-                            manage.
-                        </li>
-                        <li>
-                            Leading small team to support sales and client teams with report generation and general
-                            client support
-                        </li>
-                        <li>
-                            Delivering in-depth data report presentations to clients highlighting successes throughout
-                            advertising campaigns and
-                            adding context to overall audience behavior
-                        </li>
-                        <li>
-                            Consuming various API data sources to support operations team’s data accuracy standards
-                        </li>
-                        <li>
-                            Supporting RFP process with user data trend analysis and recommendations to clients for
-                            future campaigns
-                        </li>
-                        <li>
-                            Created fully automated reporting process (database query to formatted excel delivery file)
-                            and expanded reporting
-                            volume capabilities by over 200%
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div>
-                <div class="flex">
-                    <h3 class="basis 2/3 grow text-md font-bold">Continental Tire - Fort Mill, SC</h3>
-                </div>
-                <div class="flex">
-                    <h4 class="basis 2/3 grow font-semibold">Strategic Account Performance Analyst</h4>
-                    <p class="basis 1/3 text-sm">July 2017 - May 2021</p>
-                </div>
-                <div>
-                    <ul class="ml-5 list-disc text-sm">
-                        <li>
-                            Built and maintaining an online CRM system (php, MySQL, bootstrap) for tracking product
-                            performance metrics and
-                            customer visits across North America. Includes A/B testing of new features, full
-                            documentation, reporting of data to
-                            senior management, and analyzing data to identify trends in the market
-                        </li>
-                        <li>
-                            Supported sales team through entire customer acquisition process (RFP, contract, renewal) of
-                            our
-                            largest accounts (>$15 MM)
-                            regarding any technical material and product offerings ensuring all requirements are
-                            satisfied
-                        </li>
-                        <li>
-                            Developed product performance measurement protocols and data quality standards to enhance
-                            repeatability and accuracy of
-                            results from on-site product testing
-                        </li>
-                        <li>
-                            Advanced customer relationships through on site visits, remote video training, and reliable
-                            monthly reporting of key
-                            account metrics
-                        </li>
-                    </ul>
-                </div>
-                <div class="flex">
-                    <h4 class="basis 2/3 grow text-md font-semibold">Tire Development Engineer</h4>
-                    <p class="basis 1/3 text-sm">April 2015 – June 2017</p>
-                </div>
-                <div>
-                    <ul class="ml-5 list-disc text-sm">
-                        <li>
-                            Lead multiple parallel product development projects with budgets exceeding $1 million and
-                            consisting of diverse
-                            multinational and cross-functional teams
-                        </li>
-                        <li>
-                            Doubled essential performance criteria and reduced total cost of production for key product
-                            line ahead of schedule while
-                            under executive-level oversight
-                        </li>
-                        <li>
-                            Presented product improvement plans and features to internal and external stakeholders from
-                            entry level techs to executive
-                            leadership
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-
-        </div>
-
-
-
-        <h2 class="text-2xl font-bold text-cyan-800">Education</h2>
-        <h3 class="text-xl font-bold">Michigan Technological University</h3>
         <div class="flex">
+            <div class="basis-44 bg-gray-100 p-2">
+                <h2 class="text-xl font-bold text-cyan-800">Skills</h2>
+                <div class="">
 
-            <div class="basis-2/4">
-                <h4 class="text-lg">M.S. 2014 <br>Materials Science and Engineering</h4>
+                    <div class="">
+                        <h4 class="text-lg font-semibold">Software</h4>
+                        <ul class="text-sm">
+                            <li class="mt-2">
+                                Python (Pandas)
+                            </li>
+                            <li class="mt-2">
+                                SQL (Redshift, Postgres, MySQL)
+                            </li>
+                            <li class="mt-2">
+                                API Consumption
+                            </li>
+                            <li class="mt-2">
+                                git (Gitlab, GitHub)
+                            </li>
+                            <li class="mt-2">
+                                Power BI
+                            </li>
+                            <li class="mt-2">
+                                Excel
+                            </li>
+                            <li class="mt-2">
+                                Salesforce
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="text-lg font-semibold">Professional</h4>
+                        <ul class="text-sm">
+                            <li class="mt-2">
+                                Problem Solving
+                            </li>
+                            <li class="mt-2">
+                                Data and Statistical Analysis
+                            </li>
+                            <li class="mt-2">
+                                Research
+                            </li>
+                            <li class="mt-2">
+                                Multicultural Team Leadership
+                            </li>
+                            <li class="mt-2">
+                                Project Management
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <h2 class="mt-4 text-xl font-bold text-cyan-800">Education</h2>
+                <h3 class="text-lg font-bold leading-snug">Michigan Technological <br>University</h3>
+                <p class="font-semibold mt-2 leading-snug">Materials Science and <br> Engineering</p>
+                <div class="text-sm">
+                    <div class="flex">
+                        <h4 class="basis 2/3 grow">Masters</h4>
+                        <h4 class="basis 1/3 mr-5">Dec 2014</h4>
+                    </div>
+                    <div class="flex">
+                        <h4 class="basis 2/3 grow">Bachelors</h4>
+                        <h4 class="basis 1/3 mr-5">May 2013</h4>
+                    </div>
+                </div>
             </div>
-            <div class="basis-2/4">
-                <h4 class="text-lg">B.S. 2013 <br>Materials Science and Engineering</h4>
+            <div class="basis-3/4 grow ml-2">
+                <div>
+                    <h2 class="text-2xl font-bold text-cyan-800">Experience</h2>
+                    <div>
+                        <div class="flex mt-2">
+                            <h3 class="basis 2/3 grow text-md font-bold">Sermo - Remote</h3>
+                        </div>
+                        <div class="flex">
+                            <h4 class="basis 2/3 grow text-md font-semibold">Senior Associate: Insights & Analytics
+                            </h4>
+                            <p class="basis 1/3 text-sm">April 2022 - Present</p>
+                        </div>
+                        <div class="flex -mt-1">
+                            <h4 class="basis 2/3 grow text-md font-semibold">Business Analytics Associate</h4>
+                            <p class="basis 1/3 text-sm">May 2021 - April 2022</p>
+                        </div>
+                        <div>
+                            <ul class="ml-5 list-disc text-sm">
+                                <li class="mt-0.5 leading-snug">
+                                    Build processes to manage all types of reporting (client-facing and internal)
+                                    including creation, automation, delivery, and
+                                    request criteria. Includes aligning requirements across multiple teams and utilizing
+                                    kanban boards for efficiency resulting in a 25% reduction of lead times
+                                </li>
+                                <li class="mt-0.5 leading-snug">
+                                    Manage small team to facilitate all reporting needs for sales and client success
+                                    teams and lead project with vendor to develop RPA bot and implement internally
+                                </li>
+                                <li class="mt-0.5 leading-snug">
+                                    Create fully automated reporting process (database query to formatted excel
+                                    delivery file)
+                                    and expanded reporting
+                                    volume capabilities by over 300%.
+                                </li>
+                                <li class="mt-0.5 leading-snug">
+                                    Deliver in-depth presentations to high profile client executive
+                                    management highlighting successes
+                                    throughout
+                                    advertising campaigns and
+                                    adding context to overall audience behavior
+                                </li>
+                                <li class="mt-0.5 leading-snug">
+                                    Collaborate with engineering and data science teams to give feedback on
+                                    campaign targeting strategy and data forecasting models
+                                </li>
+                                <li class="mt-0.5 leading-snug">
+                                    Support RFP process with user data trend analysis and recommendations to tier 1
+                                    clients for future campaigns
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div class="flex mt-5">
+                            <h3 class="basis 2/3 grow text-md font-bold">Continental Tire - Fort Mill, SC</h3>
+                        </div>
+                        <div class="flex">
+                            <h4 class="basis 2/3 grow font-semibold -mt-1">Strategic Account Performance Analyst</h4>
+                            <p class="basis 1/3 text-sm">July 2017 - May 2021</p>
+                        </div>
+                        <div>
+                            <ul class="ml-5 list-disc text-sm">
+                                <li class="mt-0.5 leading-snug">
+                                    Built and maintained an online CRM system (php, MySQL, bootstrap) for tracking
+                                    product
+                                    performance metrics and
+                                    customer visits across North America. Reported and presented data regularly to
+                                    senior management, and analyzing data to identify trends in the market
+                                </li>
+                                <li class="mt-0.5 leading-snug">
+                                    Supported sales team through entire customer acquisition process (RFP, contract,
+                                    renewal) of
+                                    largest accounts (>$15 MM)
+                                    regarding any technical material and product offerings ensuring all requirements are
+                                    satisfied
+                                </li>
+                                <li class="mt-0.5 leading-snug">
+                                    Developed product performance measurement protocols and data quality standards to
+                                    enhance
+                                    repeatability and accuracy of
+                                    results from product testing
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex mt-4">
+                            <h4 class="basis 2/3 grow text-md font-semibold">Tire Development Engineer</h4>
+                            <p class="basis 1/3 text-sm">April 2015 – June 2017</p>
+                        </div>
+                        <div>
+                            <ul class="ml-5 list-disc text-sm">
+                                <li class="mt-0.5 leading-snug">
+                                    Lead multiple parallel product development projects with budgets exceeding $1
+                                    million and
+                                    consisting of diverse
+                                    multinational and cross-functional teams
+                                </li>
+                                <li class="mt-0.5 leading-snug">
+                                    Doubled essential performance criteria and reduced total cost of production for key
+                                    product
+                                    line ahead of schedule while
+                                    under executive-level oversight
+                                </li>
+                                <li class="mt-0.5 leading-snug">
+                                    Presented product improvement plans and features to internal and external
+                                    stakeholders from
+                                    entry level techs to executive
+                                    leadership
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </div>
 
 
-        <h2 class="text-2xl font-bold text-cyan-800">Skills</h2>
-        <div class="flex">
 
-            <div class="basis-2/4">
-                <h4 class="text-lg">Software</h4>
-                <p class="text-sm">
-                    Python (Pandas), SQL (Redshift, Postgres, MySQL), Excel, Microsoft Power BI, Salesforce
-                </p>
-            </div>
-            <div class="basis-2/4">
-                <h4 class="text-lg">Professional</h4>
-                <p class="text-sm">
-                    Problem Solving, Data and statistical analysis, Research, Multicultural Team Leadership, Project
-                    Management
-                </p>
-            </div>
 
-        </div>
     </div>
 
 
