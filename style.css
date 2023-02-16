@@ -605,6 +605,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   clear: none;
 }
 
+.m-1 {
+  margin: 0.25rem;
+}
+
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -620,10 +624,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .ml-2 {
@@ -648,6 +648,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .box-border {
@@ -750,6 +754,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: calc(100% - 0.25rem);
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -774,12 +786,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-basis: 25%;
 }
 
-.basis-56 {
-  flex-basis: 14rem;
-}
-
 .basis-44 {
   flex-basis: 11rem;
+}
+
+.basis-56 {
+  flex-basis: 14rem;
 }
 
 .table-auto {
